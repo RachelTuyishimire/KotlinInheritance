@@ -27,7 +27,7 @@ open class Car(var make:String, var model:String, var color:String, var capacity
         if(people<=capacity)
         println("Carrying $people passengers")
         else
-            println("Over capacity $x")
+            println("Over capacity $x people")
     }
    open fun identity(){
         println("I am a $color $make $model")
